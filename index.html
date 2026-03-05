@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CI/CD Demo</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="card">
+    <h1>CI/CD Demo 🚀</h1>
+    <p>This site is deployed automatically using GitHub Actions + GitHub Pages.</p>
+    <p class="small">Last updated: <span id="time"></span></p>
+    <button onclick="alert('Pipeline working! ✅')">Click me</button>
+  </div>
+
+  <script>
+    document.getElementById("time").innerText = new Date().toLocaleString();
+  </script>
+</body>
+</html>
